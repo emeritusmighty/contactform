@@ -6,9 +6,9 @@ error_reporting(E_ALL);
 Tested working with PHP5.4 and above (including PHP 7 )
 
  */
-require_once './vendor/autoload.php';
+require_once 'autoload.php';
 
-use FormGuide\Handlx\FormHandler;
+use FormHandler;
 
 
 $pp = new FormHandler(); 
